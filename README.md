@@ -68,6 +68,17 @@ Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el últi
 
 Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100
 
+#Conclusion:
+Luego de realizar un análisis exhaustivo de los datos y presentarlos visualmente a través del dashboard en PowerBi, se obtienen las siguientes conclusiones:
+
+    Entre los años 2016 y 2021, se registraron 717 víctimas fatales en siniestros de tránsito.
+    La franja horaria con mayor incidencia de siniestros se encuentra durante las horas de ingreso laboral (5-9h), almuerzo (12-14h), y regreso a casa (17-18h). Los fines de semana, especialmente los Sábados y Domingos, los accidentes se manifiestan en horarios de salidas nocturnas (3-7h).
+    El 76% de las víctimas son de género masculino, y la mayoría se encuentra en el rango etario de 20-40 años.
+    En siniestros que involucran a hombres, el rol más común es el de conductor.
+    Los tipos de vehículos más frecuentes con víctimas son las motocicletas, seguidas por peatones. En cuanto a los acusados, los vehículos más comunes son autos, colectivos y vehículos de carga.
+    Las avenidas son los lugares con mayor cantidad de siniestros a lo largo de los años, y los cruces representan la mayoría de las ubicaciones.
+    Se observa un patrón relacionado con la edad, hora y género. Los hombres de 20 a 40 años tienen una mayor incidencia de accidentes, especialmente durante las horas de entrada y salida laboral, así como en las salidas nocturnas de los fines de semana.
+
 fuentes de informacion adicional:https://www.minfra.gba.gob.ar/web/seguridadVial/Informe%202019%20Estadisticas%20en%20Seguridad%20Vial.pdf
 
 INDEC
