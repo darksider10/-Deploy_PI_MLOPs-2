@@ -39,3 +39,6 @@ El primer paso del proyecto involucra la extracción y limpieza de datos de los 
 Proceso de EDA (Análisis Exploratorio de Datos)
 
 Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos (EDA). Durante esta fase, se exploran las relaciones entre variables numéricas y categóricas, se identifican posibles outliers o anomalías, y se busca patrones que puedan proporcionar conocimientos para análisis posteriores.
+
+Analisis
+
