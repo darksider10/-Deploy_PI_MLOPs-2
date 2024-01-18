@@ -42,3 +42,4 @@ Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos 
 
 Analisis
 
+(/images/dia y horas.png)
