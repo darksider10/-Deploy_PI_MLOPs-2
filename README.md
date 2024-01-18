@@ -1,6 +1,7 @@
 # -Deploy_PI_MLOPs-2
 
-https://www.minfra.gba.gob.ar/web/seguridadVial/Informe%202019%20Estadisticas%20en%20Seguridad%20Vial.pdf
+Fuente de datos adicional:https://www.minfra.gba.gob.ar/web/seguridadVial/Informe%202019%20Estadisticas%20en%20Seguridad%20Vial.pdf
+
 
 
 Análisis de Siniestros Viales en Buenos Aires
@@ -20,3 +21,21 @@ En 2022, se contabilizaron 3,828 muertes fatales. Se destaca que la probabilidad
 Resumen de Análisis
 
 Este proyecto tiene como objetivo analizar y visualizar datos de siniestros viales en Buenos Aires para comprender mejor los patrones y contribuir a la mejora de la seguridad vial. El análisis se centra en tasas de mortalidad y tendencias a lo largo del tiempo, proporcionando información clave para la toma de decisiones y la implementación de políticas efectivas.
+
+Desarrollo:
+
+Este proyecto se basa en la exploración y análisis de datos relacionados con siniestros viales en la ciudad de Buenos Aires. Se utiliza un conjunto de datos que incluye dos pestañas principales:
+
+    HECHOS:
+        Contiene información detallada sobre cada incidente, con un identificador único (id) y variables temporales, espaciales y de participantes asociadas.
+
+    VICTIMAS:
+        Proporciona detalles sobre cada víctima involucrada en los incidentes, incluyendo edad, sexo y modo de desplazamiento. Se vincula a los datos de HECHOS mediante el id del incidente.
+
+Puede acceder a los datos utilizados en este análisis aquí.
+Proceso de ETL (Extracción, Transformación y Carga)
+
+El primer paso del proyecto involucra la extracción y limpieza de datos de los conjuntos HECHOS y VICTIMAS. Este proceso se realiza utilizando herramientas como Pandas y Jupyter Notebook. Se eliminan valores nulos, duplicados, y se aplican transformaciones necesarias, como cambios en los tipos de datos, eliminación de columnas irrelevantes y unión de las tablas. El resultado se guarda en un archivo siniestros_limpio.csv.
+Proceso de EDA (Análisis Exploratorio de Datos)
+
+Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos (EDA). Durante esta fase, se exploran las relaciones entre variables numéricas y categóricas, se identifican posibles outliers o anomalías, y se busca patrones que puedan proporcionar conocimientos para análisis posteriores.
