@@ -50,6 +50,8 @@ Los meses con más victimas fatales son **Diciembre** (86), mientras que los dí
 
 ![Mapa de Color](https://raw.githubusercontent.com/darksider10/-Deploy_PI_MLOPs-2/main/imagenes/dia%20y%20horas.png)
 
+Los horarios críticos de los siniestros viales están relacionados con los momentos del ingreso a la jornada laboral (5-9h), el momento del almuerzo (12-14h) y la salida del trabajo (17-18h). Mientras que los fines de semana están relacionados con las salidas nocturnas (4-7h)
+
 
 Edad de las víctimas : La distribución del rango etario de víctimas, resulta para los `Masculinos` entre 20 y 40 años; mientras que para los `Femeninos` entre 40, 60 y 80 años.
 
@@ -58,5 +60,3 @@ Edad de las víctimas : La distribución del rango etario de víctimas, resulta 
 
 
 
-
-![participantes](https://raw.githubusercontent.com/darksider10/-Deploy_PI_MLOPs-2/main/imagenes/victimas%segun%participantes.png)
