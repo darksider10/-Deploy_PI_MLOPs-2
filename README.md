@@ -42,4 +42,4 @@ Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos 
 
 Analisis
 
-![Mapa de Calor](/imagenes/dia y horas.png)
+(imagenes/dia y horas.png)
