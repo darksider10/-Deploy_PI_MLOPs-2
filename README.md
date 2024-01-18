@@ -42,4 +42,4 @@ Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos 
 
 Analisis
 
-(imagenes/dia y horas.png)
+![Mapa de Color](imagenes/dia y horas.png)
