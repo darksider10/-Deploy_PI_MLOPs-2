@@ -42,4 +42,4 @@ Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos 
 
 Analisis
 
-![Mapa de Color](imagenes/dia y horas.png)
+![Mapa de Color]([imagenes](https://github.com/darksider10/-Deploy_PI_MLOPs-2/tree/main/imagenes)https://github.com/darksider10/-Deploy_PI_MLOPs-2/tree/main/imagenes/dia y horas.png)
