@@ -1,10 +1,7 @@
 # -Deploy_PI_MLOPs-2
 
-Fuente de datos adicional:https://www.minfra.gba.gob.ar/web/seguridadVial/Informe%202019%20Estadisticas%20en%20Seguridad%20Vial.pdf
 
-
-
-Análisis de Siniestros Viales en Buenos Aires
+#Análisis de Siniestros Viales en Buenos Aires
 
 Los siniestros viales, comúnmente conocidos como accidentes de tráfico, representan eventos que involucran vehículos en las vías públicas, con consecuencias que pueden variar desde daños materiales hasta lesiones graves o fatales. En el contexto de una ciudad como Buenos Aires, la alta densidad poblacional y el volumen de tráfico hacen que los siniestros viales sean una preocupación importante.
 Importancia del Análisis
@@ -22,7 +19,7 @@ Resumen de Análisis
 
 Este proyecto tiene como objetivo analizar y visualizar datos de siniestros viales en Buenos Aires para comprender mejor los patrones y contribuir a la mejora de la seguridad vial. El análisis se centra en tasas de mortalidad y tendencias a lo largo del tiempo, proporcionando información clave para la toma de decisiones y la implementación de políticas efectivas.
 
-Desarrollo:
+#Desarrollo:
 
 Este proyecto se basa en la exploración y análisis de datos relacionados con siniestros viales en la ciudad de Buenos Aires. Se utiliza un conjunto de datos que incluye dos pestañas principales:
 
@@ -40,7 +37,7 @@ Proceso de EDA (Análisis Exploratorio de Datos)
 
 Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos (EDA). Durante esta fase, se exploran las relaciones entre variables numéricas y categóricas, se identifican posibles outliers o anomalías, y se busca patrones que puedan proporcionar conocimientos para análisis posteriores.
 
-Analisis
+#Analisis
 
     Se examinaron las variables numéricas del conjunto de datos mediante una matriz de correlación, destacando una relación positiva entre las variables Edad y Hora.
     La mayoría de los siniestros concluyen con una única víctima fatal; casos que involucran a tres víctimas son poco frecuentes.
@@ -58,17 +55,18 @@ Edad de las víctimas : La distribución del rango etario de víctimas, resulta 
 
 ![Edades](https://raw.githubusercontent.com/darksider10/-Deploy_PI_MLOPs-2/main/imagenes/victimas_sexo%20y%20edad.png)
 
-KPIs
+#KPIs
 Los KPIs propuestos son: 
 
 
-    Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.
+Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.
 
-    Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000
+Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000
 
-    Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
+Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
 
-    Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100
+Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100
 
 fuentes de informacion adicional:https://www.minfra.gba.gob.ar/web/seguridadVial/Informe%202019%20Estadisticas%20en%20Seguridad%20Vial.pdf
+
 INDEC
