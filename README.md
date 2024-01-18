@@ -56,6 +56,7 @@ Edad de las víctimas : La distribución del rango etario de víctimas, resulta 
 ![Edades](https://raw.githubusercontent.com/darksider10/-Deploy_PI_MLOPs-2/main/imagenes/victimas_sexo%20y%20edad.png)
 
 #KPIs
+
 Los KPIs propuestos son: 
 
 
