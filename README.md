@@ -42,10 +42,21 @@ Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos 
 
 Analisis
 
+    Se examinaron las variables numéricas del conjunto de datos mediante una matriz de correlación, destacando una relación positiva entre las variables Edad y Hora.
+    La mayoría de los siniestros concluyen con una única víctima fatal; casos que involucran a tres víctimas son poco frecuentes.
+
+    En el transcurso de los años, los accidentes con víctimas fatales muestran: para el período 2016-2018 una tendencia alta y estacionaria, que luego se convierte en bajista (teniendo en cuenta el comienzo de la Pandemia por COVID19 durante 2020); puede verse un pico de siniestros durante Diciembre de 2021 y se retoma la tendencia bajista.
+Los meses con más victimas fatales son **Diciembre** (86), mientras que los días de la semana **Sábado** (115) y **Domingo** (117) tienen la mayor cantidad de víctimas.
+
 ![Mapa de Color](https://raw.githubusercontent.com/darksider10/-Deploy_PI_MLOPs-2/main/imagenes/dia%20y%20horas.png)
 
 
+Edad de las víctimas : La distribución del rango etario de víctimas, resulta para los `Masculinos` entre 20 y 40 años; mientras que para los `Femeninos` entre 40, 60 y 80 años.
+
+
 ![Edades](https://raw.githubusercontent.com/darksider10/-Deploy_PI_MLOPs-2/main/imagenes/victimas_sexo%y%edad.png)
+
+
 
 
 ![participantes](https://raw.githubusercontent.com/darksider10/-Deploy_PI_MLOPs-2/main/imagenes/victimas%segun%participantes.png)
