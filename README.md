@@ -55,7 +55,7 @@ Los meses con más victimas fatales son **Diciembre** (86), mientras que los dí
 
 Los horarios críticos de los siniestros viales están relacionados con los momentos del ingreso a la jornada laboral (5-9h), el momento del almuerzo (12-14h) y la salida del trabajo (17-18h). Mientras que los fines de semana están relacionados con las salidas nocturnas (4-7h)
 
-(https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_tiempo.png)
+![Mapa de Color](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_tiempo.png)
 
 El mayor número de víctimas en promedio se registró entre 2017 y 2019. En 2020, hubo un marcado descenso en el número de muertes, lo cual asumo que puede estar relacionado con el inicio de la pandemia de COVID-19. A finales de 2020, se observó un pico significativamente alto de víctimas, lo cual podría indicar eventos específicos o cambios en las condiciones de tráfico.
 
