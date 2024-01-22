@@ -63,6 +63,19 @@ El mayor número de víctimas en promedio se registró entre 2017 y 2019. En 202
 
 ![Roles](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/roles.png)
 
+La distribución por roles de las víctimas revela que:
+
+    En la mayoría de los siniestros, las víctimas desempeñan el rol de conductor, seguido por el rol de peatón.
+    Para las víctimas de sexo masculino, el rol más común en los siniestros es el de conductor, seguido por el rol de peatón.
+    En el caso de las víctimas de sexo femenino, el rol más frecuente en los siniestros es el de peatón, seguido por el rol de pasajero-acompañante.
+
+Estos patrones proporcionan una perspectiva detallada sobre la distribución de roles en los incidentes viales, tanto en general como diferenciando por género.
+
+![Roles](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/vehiculos_sexos.png)
+
+    La mayor cantidad de accidentes con víctimas fatales involucran a motociclistas, siendo este el grupo con mayor proporción de víctimas masculinas. En segundo lugar, se encuentran los peatones, donde también la mayoría de las víctimas son masculinas, aunque la diferencia en proporción es menor en comparación con el primer grupo.
+
+
 Edad de las víctimas : La distribución del rango etario de víctimas, resulta para los `Masculinos` entre 20 y 40 años; mientras que para los `Femeninos` entre 40, 60 y 80 años.
 
 
