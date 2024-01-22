@@ -63,7 +63,7 @@ Los meses con más victimas fatales son **Diciembre** (86), mientras que los dí
 
 ![Mapa de Color](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/dia%20y%20horas.png)
 
-Los horarios críticos de los siniestros viales están relacionados con los momentos del ingreso a la jornada laboral (5-9h), el momento del almuerzo (12-14h) y la salida del trabajo (17-18h). Mientras que los fines de semana están relacionados con las salidas nocturnas (4-7h)
+Los horarios críticos de los siniestros viales están relacionados con los momentos del ingreso a la jornada laboral (5-9h), el momento del almuerzo (12-14h) y la salida del trabajo (17-18h). Mientras que los fines de semana están relacionados con las salidas nocturnas (4-7h).
 
 ![linea](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_tiempo.png)
 
@@ -92,7 +92,7 @@ Edad de las víctimas : La distribución del rango etario de víctimas, resulta 
 
 ![Edades](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_sexo%20y%20edad.png)
 
-Se puede visualizar que las víctimas son Moto, Peaton y Carga.
+Se puede visualizar que el mayor número de víctimas son Moto, Peaton y Auto.
 
 ![vehiculos](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_distribucion.png)
 
@@ -101,7 +101,7 @@ La gráfica muestra la concentración de los puntos rojos representando siniestr
 ![Mapa](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_gp.png)
 
 
-Del análisis del gráfico resulta que el mayor número de víctimas fatales se producen en Avenida, seguido por Calle y ademas cuadra con la conclusion anterior.
+Del análisis del gráfico resulta que el mayor número de víctimas fatales se producen en Avenida, seguido por Calle y ademas cuadra con la conclusion anterior. Esto se debe tanto al horario de entrada y salida laboral, como al trafico en las arterias entre comunas. 
 
 ![Proporcion](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_calles.png)
 
