@@ -33,22 +33,32 @@ ETL
 
 El primer paso del proyecto involucra la extracción y limpieza de datos de los conjuntos HECHOS y VICTIMAS. Este proceso se realiza utilizando herramientas como Pandas y Jupyter Notebook. Se eliminan valores nulos, duplicados, y se aplican transformaciones necesarias, como cambios en los tipos de datos, eliminación de columnas irrelevantes y unión de las tablas. El resultado se guarda en un archivo siniestros_viales.csv.
 
- Eliminación de la columna "Altura" del DataFrame homicidios_hechos debido a la cantidad de nulos que posee.
- Filtrado de posiciones no válidas en las columnas 'pos x' y 'pos y'.
- Conversión de las columnas 'pos x' y 'pos y' a tipo numérico (float).
- Manipulación de la columna 'XY (CABA)' para obtener 'X_CABA' y 'Y_CABA'.
- Creación de nuevas columnas como 'Dia semana' basada en la columna 'Fecha'.
- Fusión de DataFrames (comunas y homicidios_hechos) y crear una columna de comunas para el analisi geografico posterior.
- Manipulación de fechas, conversión de edades a formato numérico y creación de la columna 'Rango_etario'.
+ #Eliminación de la columna "Altura" del DataFrame homicidios_hechos debido a la cantidad de nulos que posee.
+ 
+ #Filtrado de posiciones no válidas en las columnas 'pos x' y 'pos y'.
+ 
+ #Conversión de las columnas 'pos x' y 'pos y' a tipo numérico (float).
+ 
+ #Manipulación de la columna 'XY (CABA)' para obtener 'X_CABA' y 'Y_CABA'.
+ 
+ #Creación de nuevas columnas como 'Dia semana' basada en la columna 'Fecha'.
+ 
+ #Fusión de DataFrames (comunas y homicidios_hechos) y crear una columna de comunas para el analisi geografico posterior.
+ 
+ #Manipulación de fechas, conversión de edades a formato numérico y creación de la columna 'Rango_etario'.
 
 EDA
 
 Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos (EDA). Durante esta fase, se exploran las relaciones entre variables numéricas y categóricas, se identifican posibles outliers o anomalías, y se busca patrones que puedan proporcionar conocimientos para análisis posteriores.
 
 Se examinaron las variables numéricas del conjunto de datos mediante una matriz de correlación, destacando una relación positiva entre las variables Edad y Hora.
+
 La mayoría de los siniestros concluyen con una única víctima fatal; casos que involucran a tres víctimas son poco frecuentes.
 
-#En el transcurso de los años, los accidentes con víctimas fatales muestran: para el período 2016-2018 una tendencia alta y estacionaria, que luego se convierte en bajista (teniendo en cuenta el comienzo de la Pandemia por COVID19 durante 2020); puede verse un pico de siniestros durante Diciembre de 2021 y se retoma la tendencia bajista.
+#En el transcurso de los años, los accidentes con víctimas fatales muestran: para el período 2016-2018 una tendencia alta y estacionaria, que luego se convierte en bajista (teniendo en cuenta el comienzo de la Pandemia por COVID19 durante 2020)
+
+Puede verse un pico de siniestros durante Diciembre de 2021 y se retoma la tendencia bajista.
+
 Los meses con más victimas fatales son **Diciembre** (86), mientras que los días de la semana **Sábado** (115) y **Domingo** (117) tienen la mayor cantidad de víctimas.
 
 ![Mapa de Color](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/dia%20y%20horas.png)
