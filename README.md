@@ -45,8 +45,8 @@ EDA
 
 Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos (EDA). Durante esta fase, se exploran las relaciones entre variables numéricas y categóricas, se identifican posibles outliers o anomalías, y se busca patrones que puedan proporcionar conocimientos para análisis posteriores.
 
-    Se examinaron las variables numéricas del conjunto de datos mediante una matriz de correlación, destacando una relación positiva entre las variables Edad y Hora.
-    La mayoría de los siniestros concluyen con una única víctima fatal; casos que involucran a tres víctimas son poco frecuentes.
+Se examinaron las variables numéricas del conjunto de datos mediante una matriz de correlación, destacando una relación positiva entre las variables Edad y Hora.
+La mayoría de los siniestros concluyen con una única víctima fatal; casos que involucran a tres víctimas son poco frecuentes.
 
     En el transcurso de los años, los accidentes con víctimas fatales muestran: para el período 2016-2018 una tendencia alta y estacionaria, que luego se convierte en bajista (teniendo en cuenta el comienzo de la Pandemia por COVID19 durante 2020); puede verse un pico de siniestros durante Diciembre de 2021 y se retoma la tendencia bajista.
 Los meses con más victimas fatales son **Diciembre** (86), mientras que los días de la semana **Sábado** (115) y **Domingo** (117) tienen la mayor cantidad de víctimas.
@@ -65,15 +65,15 @@ El mayor número de víctimas en promedio se registró entre 2017 y 2019. En 202
 
 La distribución por roles de las víctimas revela que:
 
-    En la mayoría de los siniestros, las víctimas desempeñan el rol de conductor, seguido por el rol de peatón.
-    Para las víctimas de sexo masculino, el rol más común en los siniestros es el de conductor, seguido por el rol de peatón.
-    En el caso de las víctimas de sexo femenino, el rol más frecuente en los siniestros es el de peatón, seguido por el rol de pasajero-acompañante.
+#En la mayoría de los siniestros, las víctimas desempeñan el rol de conductor, seguido por el rol de peatón.
+#Para las víctimas de sexo masculino, el rol más común en los siniestros es el de conductor, seguido por el rol de peatón.
+#En el caso de las víctimas de sexo femenino, el rol más frecuente en los siniestros es el de peatón, seguido por el rol de pasajero-acompañante.
 
 Estos patrones proporcionan una perspectiva detallada sobre la distribución de roles en los incidentes viales, tanto en general como diferenciando por género.
 
 ![Roles](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/vehiculos_sexos.png)
 
-    La mayor cantidad de accidentes con víctimas fatales involucran a motociclistas, siendo este el grupo con mayor proporción de víctimas masculinas. En segundo lugar, se encuentran los peatones, donde también la mayoría de las víctimas son masculinas, aunque la diferencia en proporción es menor en comparación con el primer grupo.
+La mayor cantidad de accidentes con víctimas fatales involucran a motociclistas, siendo este el grupo con mayor proporción de víctimas masculinas. En segundo lugar, se encuentran los peatones, donde también la mayoría de las víctimas son masculinas, aunque la diferencia en proporción es menor en comparación con el primer grupo.
 
 
 Edad de las víctimas : La distribución del rango etario de víctimas, resulta para los `Masculinos` entre 20 y 40 años; mientras que para los `Femeninos` entre 40, 60 y 80 años.
