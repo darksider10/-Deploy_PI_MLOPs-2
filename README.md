@@ -77,12 +77,24 @@ Estos patrones proporcionan una perspectiva detallada sobre la distribución de 
 
 #La mayor cantidad de accidentes con víctimas fatales involucran a motociclistas, siendo este el grupo con mayor proporción de víctimas masculinas. En segundo lugar, se encuentran los peatones, donde también la mayoría de las víctimas son masculinas, aunque la diferencia en proporción es menor en comparación con el primer grupo.
 
-
-
 Edad de las víctimas : La distribución del rango etario de víctimas, resulta para los `Masculinos` entre 20 y 40 años; mientras que para los `Femeninos` entre 40, 60 y 80 años.
 
 
 ![Edades](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_sexo%20y%20edad.png)
+
+Se puede visualizar que las víctimas son Moto, Peaton y Carga.
+
+![vehiculos](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_distribucion.png)
+
+La gráfica muestra la concentración de los puntos rojos representando siniestros con víctimas fatales, hacia la zona Este del mapa de CABA sobre la comuna 1 y 4.
+
+![Mapa](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_gp.png)
+
+
+Del análisis del gráfico resulta que el mayor número de víctimas fatales se producen en Avenida, seguido por Calle y ademas cuadra con la conclusion anterior.
+
+![Proporcion](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/victimas_calles.png)
+
 
 #KPIs
 
