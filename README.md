@@ -29,15 +29,21 @@ Este proyecto se basa en la exploración y análisis de datos relacionados con s
     VICTIMAS:
         Proporciona detalles sobre cada víctima involucrada en los incidentes, incluyendo edad, sexo y modo de desplazamiento. Se vincula a los datos de HECHOS mediante el id del incidente.
 
-Puede acceder a los datos utilizados en este análisis aquí.
-Proceso de ETL (Extracción, Transformación y Carga)
+ETL
 
-El primer paso del proyecto involucra la extracción y limpieza de datos de los conjuntos HECHOS y VICTIMAS. Este proceso se realiza utilizando herramientas como Pandas y Jupyter Notebook. Se eliminan valores nulos, duplicados, y se aplican transformaciones necesarias, como cambios en los tipos de datos, eliminación de columnas irrelevantes y unión de las tablas. El resultado se guarda en un archivo siniestros_limpio.csv.
-Proceso de EDA (Análisis Exploratorio de Datos)
+El primer paso del proyecto involucra la extracción y limpieza de datos de los conjuntos HECHOS y VICTIMAS. Este proceso se realiza utilizando herramientas como Pandas y Jupyter Notebook. Se eliminan valores nulos, duplicados, y se aplican transformaciones necesarias, como cambios en los tipos de datos, eliminación de columnas irrelevantes y unión de las tablas. El resultado se guarda en un archivo siniestros_viales.csv.
+
+ Eliminación de la columna "Altura" del DataFrame homicidios_hechos debido a la cantidad de nulos que posee.
+ Filtrado de posiciones no válidas en las columnas 'pos x' y 'pos y'.
+ Conversión de las columnas 'pos x' y 'pos y' a tipo numérico (float).
+ Manipulación de la columna 'XY (CABA)' para obtener 'X_CABA' y 'Y_CABA'.
+ Creación de nuevas columnas como 'Dia semana' basada en la columna 'Fecha'.
+ Fusión de DataFrames (comunas y homicidios_hechos) y crear una columna de comunas para el analisi geografico posterior.
+ Manipulación de fechas, conversión de edades a formato numérico y creación de la columna 'Rango_etario'.
+
+EDA
 
 Con los datos limpios, se procede a realizar un Análisis Exploratorio de Datos (EDA). Durante esta fase, se exploran las relaciones entre variables numéricas y categóricas, se identifican posibles outliers o anomalías, y se busca patrones que puedan proporcionar conocimientos para análisis posteriores.
-
-#Analisis
 
     Se examinaron las variables numéricas del conjunto de datos mediante una matriz de correlación, destacando una relación positiva entre las variables Edad y Hora.
     La mayoría de los siniestros concluyen con una única víctima fatal; casos que involucran a tres víctimas son poco frecuentes.
@@ -48,6 +54,9 @@ Los meses con más victimas fatales son **Diciembre** (86), mientras que los dí
 ![Mapa de Color](https://raw.githubusercontent.com/darksider10/-Deploy_PI_MLOPs-2/main/imagenes/dia%20y%20horas.png)
 
 Los horarios críticos de los siniestros viales están relacionados con los momentos del ingreso a la jornada laboral (5-9h), el momento del almuerzo (12-14h) y la salida del trabajo (17-18h). Mientras que los fines de semana están relacionados con las salidas nocturnas (4-7h)
+
+
+
 
 
 Edad de las víctimas : La distribución del rango etario de víctimas, resulta para los `Masculinos` entre 20 y 40 años; mientras que para los `Femeninos` entre 40, 60 y 80 años.
