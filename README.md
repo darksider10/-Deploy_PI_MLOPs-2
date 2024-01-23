@@ -115,9 +115,16 @@ Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos sei
 
 Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000
 
+Termino dando un 14% mayor al esperado.
+![KPI](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/KPI1.png)
+
 Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
 
 Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100
+
+Termino dando un 46% negativo al esperado.
+
+![KPI](https://raw.githubusercontent.com/darksider10/PI_MLOPs-2/main/imagenes/KPI2.png)
 
 #Conclusion:
 Luego de realizar un análisis exhaustivo de los datos y presentarlos visualmente a través del dashboard en PowerBi, se obtienen las siguientes conclusiones:
