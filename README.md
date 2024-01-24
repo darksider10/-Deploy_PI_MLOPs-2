@@ -4,6 +4,7 @@
 #Análisis de Siniestros Viales en Buenos Aires
 
 Los siniestros viales, comúnmente conocidos como accidentes de tráfico, representan eventos que involucran vehículos en las vías públicas, con consecuencias que pueden variar desde daños materiales hasta lesiones graves o fatales. En el contexto de una ciudad como Buenos Aires, la alta densidad poblacional y el volumen de tráfico hacen que los siniestros viales sean una preocupación importante.
+
 Importancia del Análisis
 
 En la ciudad, la seguridad vial se convierte en una prioridad debido a su impacto en la vida de los residentes, visitantes y en la infraestructura vial. Las tasas de mortalidad relacionadas con siniestros viales son indicadores críticos, calculados por el número de muertes en proporción a la población o vehículos registrados. Reducir estas tasas es fundamental para mejorar la seguridad vial y proteger vidas.
